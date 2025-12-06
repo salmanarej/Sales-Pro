@@ -1,9 +1,9 @@
 <!--
-	SEO: Arabic-first README optimized for GitHub Discoverability
+	SEO: README optimized for GitHub Discoverability
 	Keywords: Flutter Sales App, Inventory Management, POS, Drift SQLite, Barcode, Firebase, Localization Arabic English
 -->
 
-# تطبيق Sales Pro | إدارة المبيعات والمخزون بـ Flutter (متعدد المنصات)
+# Sales Pro | Flutter Sales & Inventory Management (Cross-Platform)
 
 <div align="center">
 
@@ -14,92 +14,95 @@
 ![Database](https://img.shields.io/badge/Database-Drift%20%7C%20SQLite-orange)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-**حل حديث لإدارة المبيعات والمخزون، يدعم التوطين، الباركود، والعمل دون اتصال.**
+**Modern sales and inventory management solution with localization, barcode scanning, and offline-first support.**
 
-[English README](#english)
+[العربية](#arabic)
 
 </div>
 
 ---
 
-## لماذا «تطبيق Sales Pro»؟
-- سرعة الإطلاق عبر هيكل ميزات واضح وقابل للتوسعة.
-- يعمل بدون اتصال عبر قاعدة بيانات محلية Drift/SQLite.
-- جاهزية كاملة للتوطين (Arabic/English) وإضافة لغات بسهولة.
-- تكاملات اختيارية مع Firebase للإشعارات والتحليلات.
+## Why Sales Pro?
+- Quick deployment with clear, scalable feature-based architecture
+- Offline-first functionality via local Drift/SQLite database
+- Full localization support (Arabic/English) with easy language extension
+- Optional Firebase integration for notifications and analytics
 
-## الميزات الأساسية
-- المصادقة الآمنة وتسجيل الدخول.
-- فواتير: إنشاء/تعديل/حذف وتتبّع المدفوعات.
-- مخزون: إدارة المنتجات والكميات.
-- طلبات ومتاجر متعددة.
-- مسح باركود بالكاميرا.
-- إشعارات ودعم Offline-First.
+## Core Features
+- Secure authentication and login
+- Invoices: Create, edit, delete, and track payments
+- Inventory: Manage products and quantities
+- Multi-store and order management
+- Camera-based barcode scanning
+- Push notifications and offline-first design
 
-## لقطة سريعة للبنية
+## Architecture Overview
 ```
 lib/
-	core/            # إعدادات و SOAP وأدوات مشتركة
+	core/            # Configuration, SOAP, utilities
 	features/        # auth, orders, invoice, catalog, store, balance, time
-	screens/         # شاشات رئيسية
-	state/           # إدارة الحالة (Provider)
-	repository/      # طبقة البيانات
+	screens/         # Main screens
+	state/           # State management (Provider)
+	repository/      # Data layer
 	services/        # Firebase/Notifications
-	db/              # Drift/SQLite
-	theme/           # الألوان والتصميم
+	db/              # Drift/SQLite database
+	theme/           # Colors and styling
 ```
 
-## البداية السريعة
-```powershell
-git clone https://github.com/salmanarej/Sales-Pro.git ; cd Sales-Pro
+## Quick Start
+```bash
+git clone https://github.com/salmanarej/Sales-Pro.git
+cd Sales-Pro
 flutter pub get
 flutter run
 ```
 
-### إعداد Firebase (اختياري)
-- أضف `android/app/google-services.json`.
-- أنشئ `lib/firebase_options.dart` بإعدادات مشروعك.
+### Firebase Setup (Optional)
+- Add `android/app/google-services.json`
+- Create `lib/firebase_options.dart` with your project settings
 
-### البناء للإنتاج
-```powershell
+### Production Build
+```bash
 flutter build apk --release
 flutter build appbundle --release
 flutter build web --release
 flutter build windows --release
 ```
 
-## التوطين (Arabic/English)
-- ملفات اللغات: `assets/lang/ar.json`, `assets/lang/en.json`.
-- أضف لغة: أنشئ `assets/lang/<code>.json` ثم حدّث الإعداد في `lib/core/localization/`.
-- استخراج النصوص:
-```powershell
-python .\tool\extract_strings.py
+## Localization (Arabic/English)
+- Language files: `assets/lang/ar.json`, `assets/lang/en.json`
+- Add new language: Create `assets/lang/<code>.json` and update config in `lib/core/localization/`
+- Extract strings:
+```bash
+python ./tool/extract_strings.py
 ```
 
-## الاختبارات والجودة
-```powershell
+## Testing & Quality
+```bash
 flutter test
 ```
-- اتبع `analysis_options.yaml`.
+- Follow `analysis_options.yaml` guidelines
 
-## اكتشاف GitHub وتحسين SEO
-- عنوان واضح يتضمن كلمات مفتاحية: Flutter, Sales, Inventory.
-- وصف موجز جذاب وصور/شارات توضيحية.
-- أقسام مرتبة: Quick Start، Features، Architecture، Localization.
-- روابط داخلية لملفات الأدلة.
-- كلمات مفتاحية في التعليقات أعلى README.
+## GitHub Discoverability & SEO
+- Clear title with keywords: Flutter, Sales, Inventory
+- Concise description and badge illustrations
+- Organized sections: Quick Start, Features, Architecture, Localization
+- Internal links to documentation
+- Keywords in README comments
 
-## المساهمة والترخيص
-- المساهمات مرحب بها! افتح Pull Request أو Issue.
-- الترخيص: [MIT](LICENSE).
+## Contributing & License
+- Contributions welcome! Open a Pull Request or Issue
+- License: [MIT](LICENSE)
 
-## الدعم
-افتح قضية مع تفاصيل المنصة والخطوات واللوج.
+## Support
+Open an issue with platform details, steps, and logs.
 
 ---
 
-## English (Brief)
-Sales Pro is a modern Flutter app for Sales and Inventory with Offline support, Barcode scanning, Localization (Arabic/English), optional Firebase, and a clean feature-oriented structure. Quick start:
+## العربية
+تطبيق Sales Pro هو حل حديث لإدارة المبيعات والمخزون مبني بـ Flutter، يدعم العمل دون اتصال، مسح الباركود، التوطين (عربي/إنجليزي)، Firebase اختياري، وبنية ميزات واضحة.
+
+**البدء السريع:**
 ```bash
 flutter pub get && flutter run
 ```
