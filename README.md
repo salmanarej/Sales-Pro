@@ -16,8 +16,6 @@
 
 **Modern sales and inventory management solution with localization, barcode scanning, and offline-first support.**
 
-[العربية](#arabic)
-
 </div>
 
 ---
@@ -99,11 +97,4 @@ Open an issue with platform details, steps, and logs.
 
 ---
 
-## العربية
-تطبيق Sales Pro هو حل حديث لإدارة المبيعات والمخزون مبني بـ Flutter، يدعم العمل دون اتصال، مسح الباركود، التوطين (عربي/إنجليزي)، Firebase اختياري، وبنية ميزات واضحة.
-
-**البدء السريع:**
-```bash
-flutter pub get && flutter run
-```
-- 💼 GitHub: [@salmanarej](https://github.com/salmanarej/Sales-Pro)
+**💼 GitHub:** [@salmanarej](https://github.com/salmanarej/Sales-Pro)
