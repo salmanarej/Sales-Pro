@@ -65,7 +65,7 @@ flutter run
 </div>
 
 ### Video Demo
-📹 **[Watch App Demo](assets/VIDEO/Screen_Recording.mp4)**
+📹 **[Watch App Demo](https://github.com/salmanarej/Sales-Pro/raw/main/assets/VIDEO/Screen_Recording.mp4)** (Download to view)
 
 ### Firebase Setup (Optional)
 - Add `android/app/google-services.json`
