@@ -104,6 +104,11 @@ flutter test
 ## Support
 Open an issue with platform details, steps, and logs.
 
+## Contact
+For any inquiries or feedback, please reach out:
+
+- **💼 GitHub:** [@salmanarej](https://github.com/salmanarej)
+- **📧 Email:** [salmanarej@gmail.com](mailto:salmanarej@gmail.com)
+
 ---
 
-**💼 GitHub:** [@salmanarej](https://github.com/salmanarej/Sales-Pro)
