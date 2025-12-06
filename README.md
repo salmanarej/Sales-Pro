@@ -66,9 +66,9 @@ flutter run
 
 ### Video Demo
 
-https://github.com/user-attachments/assets/VIDEO/Screen_Recording.mp4
+<video src="https://github.com/salmanarej/Sales-Pro/assets/VIDEO/Screen_Recording.mp4" width="400" controls></video>
 
-> Click play to watch the app demo directly on GitHub
+> 📹 App demonstration video - Click to play
 
 ### Firebase Setup (Optional)
 - Add `android/app/google-services.json`
