@@ -105,10 +105,13 @@ flutter test
 Open an issue with platform details, steps, and logs.
 
 ## Contact
-For any inquiries or feedback, please reach out:
+**Developed by Software Developer: Salman Arej**
 
+- **🌐 Website:** [salman.uno](https://salman.uno)
+- **💼 LinkedIn:** [Salman Arej](https://www.linkedin.com/in/salman-irej-9381b5393)
 - **💼 GitHub:** [@salmanarej](https://github.com/salmanarej)
-- **📧 Email:** [salmanarej@gmail.com](mailto:salmanarej@gmail.com)
+- **📧 Email:** [hello@salman.uno](mailto:hello@salman.uno)
+- **📱 Mobile:** [+971 50 863 2815](tel:+971508632815) | [+971 54 554 5075](tel:+971545545075) | [+963 992 504 786](tel:+963992504786)
 
 ---
 
