@@ -55,6 +55,18 @@ flutter pub get
 flutter run
 ```
 
+## Screenshots
+
+<div align="center">
+  <img src="assets/images/screenshot1.jpg" width="200" alt="Login Screen"/>
+  <img src="assets/images/screenshot2.jpg" width="200" alt="Dashboard"/>
+  <img src="assets/images/screenshot3.jpg" width="200" alt="Invoices"/>
+  <img src="assets/images/screenshot4.jpg" width="200" alt="Inventory"/>
+</div>
+
+### Video Demo
+📹 **[Watch App Demo](assets/VIDEO/Screen_Recording.mp4)**
+
 ### Firebase Setup (Optional)
 - Add `android/app/google-services.json`
 - Create `lib/firebase_options.dart` with your project settings
