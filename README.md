@@ -64,12 +64,6 @@ flutter run
   <img src="assets/images/screenshot4.jpg" width="200" alt="Inventory"/>
 </div>
 
-### Video Demo
-
-[**Watch App Demo Video**](https://github.com/salmanarej/Sales-Pro/raw/main/assets/VIDEO/Screen_Recording.mp4)
-
-> Click the link above to download/view the video directly.
-
 ### Firebase Setup (Optional)
 - Add `android/app/google-services.json`
 - Create `lib/firebase_options.dart` with your project settings
